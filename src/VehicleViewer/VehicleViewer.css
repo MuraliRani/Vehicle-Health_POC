@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+.vehicle-health-container {
+  width: 100%;
+  background: #f5f7fa;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.canvas-wrapper {
+  width: 100%;
+  height: 60vh;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+}
+
+.viewer-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.viewer-controls button {
+  padding: 10px 16px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #1976d2;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-size: 14px;
+}
+
+.viewer-controls button:hover {
+  background: #1565c0;
+}
+
